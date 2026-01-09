@@ -21,7 +21,7 @@ def topKFrequent(nums, k):
                 return result
 
 # 示例调用
-nums = [1, 1, 1, 2, 2, 3]
-k = 2
+nums = [1, 1, 1, 2, 2,2, 3]
+k = 1
 print(f"输入: nums = {nums}, k = {k}")
 print(f"结果: {topKFrequent(nums, k)}")
